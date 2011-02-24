@@ -1,8 +1,0 @@
-development: 
-    port: 13000 
-test: 
-    port: 13001 
-staging: 
-    port: 13002 
-production: 
-    port: 13003
