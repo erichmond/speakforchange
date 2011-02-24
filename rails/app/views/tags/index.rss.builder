@@ -1,0 +1,26 @@
+<h2>Tags</h2>
+
+<table>
+  <thead>
+    <th>Tag</th>
+    <th>Messages</th>
+  </thead>
+  <tbody>
+
+    <% @tags.each do |tag| %>
+      <tr class="<%=cycle('odd', 'even')%>">
+        <td>
+          <%= link_to tag.name, tag_path(:id => tag) %>
+        </td>
+        <td class='msgCol'>
+          <% if tag.taggings.count > 0%>
+            <%= link_to tag.taggings.count, tag_path(:id => tag) %>
+
+          <% else %>
+            <%= tag.taggings.count %>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

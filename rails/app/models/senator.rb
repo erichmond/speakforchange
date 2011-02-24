@@ -1,0 +1,3 @@
+class Senator < Legislator
+end
+

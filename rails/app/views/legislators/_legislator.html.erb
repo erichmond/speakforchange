@@ -1,0 +1,22 @@
+
+    <div class="name">
+        <%= link_to(image_tag(legislator.image), legislator) %>
+        <%= link_to legislator.shortname, legislator%>
+        <%= legislator.extension %>#
+    </div>
+    <p>
+      <%= legislator.party %> <%= legislator.state %> <%= legislator.district %>
+    </p>
+
+    <p>
+      <%= pluralize(legislator.messages.count, "Message") %>
+    </p>
+
+    <ul class='graphic'>
+      <% legislator.messages.recent(3).each do |m| %>
+        <li>
+          <%= link_to 'message', m.audio_path %>
+        </li>
+      <% end %>
+    </ul>
+

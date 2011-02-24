@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/410/trunk/rails/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/410/trunk/rails/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/rails/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/rails/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/102/trunk/rails/config/environment.rb
+END
+sphinx.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/103/trunk/rails/config/sphinx.yml
+END
+development.sphinx.conf
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/274/trunk/rails/config/development.sphinx.conf
+END
+deploy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/370/trunk/rails/config/deploy.rb
+END

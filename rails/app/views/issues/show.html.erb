@@ -1,0 +1,14 @@
+<% content_for :headtag do %>
+  <%= auto_discovery_link_tag(:rss, issue_url) %>
+  <%= render :partial => 'shared/page_player' %>
+<% end %>
+
+<h2>
+  <%= @issue.title %>
+</h2>
+
+<p>Use extension <span class="extensionNumber"><%= @issue.extension %></span> to leave a message on this issue.</p>
+
+<%= h(simple_format( @issue.description)) %>
+
+<%= render :partial => "messages/messages", :object => @messages %>

@@ -1,0 +1,36 @@
+<% if messages.empty? %>
+
+  <p>No messages.</p>
+
+<% end %>
+
+
+<div id="messagesCollection">
+
+  <table>
+    <tr>
+      <td>
+        <% if messages.respond_to?(:total_pages) %>
+          <%= pluralize(messages.total_entries, "message")%>
+        <% end %>
+      </td>
+      <td id="autoplayOption">
+        <% if ! @message && messages.size > 1 %>
+
+            <strong>Play next message automatically</strong>:
+            <%= check_box_tag:autoplay, 0 %> 
+
+        <% end %>
+      </td>
+    </tr>
+  </table>
+
+
+
+
+  <%= will_paginate( messages ) if messages.respond_to?(:total_pages) %>
+    <% messages.each do |message| %>
+      <%= render :partial => 'messages/message', :object => message %>
+    <% end %>
+  <%= will_paginate( messages ) if messages.respond_to?(:total_pages) %>
+</div>

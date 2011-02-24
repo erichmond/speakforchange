@@ -1,0 +1,15 @@
+<% content_for :headtag do %>
+
+  <% if defined?(rssurl) %>
+    <%= auto_discovery_link_tag(:rss, rssurl + ".rss") %>
+
+  <% else %>
+    <%= auto_discovery_link_tag(:rss, messages_url(:rss)) %>
+  <% end %>
+
+ 	<%= render :partial => 'shared/page_player' %>
+<% end %>
+
+<h2><%= @title || "All messages" %></h2>
+
+<%= render :partial => "messages/messages", :object => @messages %>

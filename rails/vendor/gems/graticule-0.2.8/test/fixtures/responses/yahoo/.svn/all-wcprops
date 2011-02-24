@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/yahoo
+END
+unknown_address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/yahoo/unknown_address.xml
+END
+success.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/yahoo/success.xml
+END

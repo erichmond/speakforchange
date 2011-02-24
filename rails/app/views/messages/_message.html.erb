@@ -1,0 +1,73 @@
+<div id="message_<%= message.id %>" class="zipcode_<%= message.zipcode %> message ">
+
+  <div class="messageInfo span-14">
+
+    <%= message_images message %>
+
+    <div class="messageText" style="<%= message.is_a?(MessageToLegislator) && !message.deliveries.empty? ? "margin-left: #{(message.deliveries.size * 50) - 10 }px" : "margin-left: 60px" %>">  
+
+      <span class="legislatorNames">
+        <% if message.deliveries.empty? %>
+          ERROR: MESSAGE HAS NO RECIPIENTS OR ISSUE
+        <% else %>
+
+          <% if message.is_a?(MessageToLegislator) %>
+            To:
+
+            <%= message.legislators.map {|l| 
+              link_to(l.title + '. ' + l.lastname, l, :style => "font-size: 16px")
+            }.join(', ') %>
+
+          <% else %>
+
+            <% if message.issue %>
+              Re: <%= link_to message.issue.title, message.issue %> 
+            <% end %>
+          <% end %>
+        <% end %>
+      </span>
+
+      <br/>From:
+      <% if ! message.state.blank? %>
+        <%=link_to message.state, state_path(:id => message.state)%> 
+      <% end %>
+      <%=message.district%> 
+      <% if ! message.zipcode.blank? %>
+        <%=link_to message.zipcode, zipcode_path(:id => message.zipcode) %>
+      <% end %>
+      <%= time_ago_in_words message.created_at %> ago
+      <% if ! message.tag_list.empty? %>
+        <br/>Tags: <%= message.tags.map {|tag| link_to tag.name, tag_path(tag), :class => "tag"}.join(', ')%>
+      <% end %>
+
+      <% if message.title %>
+        <br/>
+        <strong><%= h message.title %></strong>
+      <% end %>
+
+      <% if !message.link.blank? %>
+        <br/>
+        <%= link_to "Link", message.link %> 
+      <% end %>
+
+    </div>
+  </div>
+  <div class="messageRightBox span-4 last">
+
+    Message <%= link_to "##{message.id}", message_path(:id => message) %><br/>
+    <a href="<%= message_path(message) %>#disqus_thread">View Comments</a><br/>
+    Listened to <%= pluralize message.plays.count, "time" %>
+
+  </div>
+
+  <ul class='playlist'>
+    <li>
+      <% if message.file && message.converted %>
+        <%= link_to "Play message", message.mp3_audio_path, :class => "audio" %>
+      <% else %>
+        <span class='audioPreparing'>audio is being prepared</span>
+      <% end %>
+    </li>
+  </ul>
+
+</div>

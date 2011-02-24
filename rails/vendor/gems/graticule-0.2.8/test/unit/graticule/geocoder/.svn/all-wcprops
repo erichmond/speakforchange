@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder
+END
+geocoder_us_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/geocoder_us_test.rb
+END
+yahoo_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/yahoo_test.rb
+END
+local_search_maps_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/local_search_maps_test.rb
+END
+meta_carta_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/meta_carta_test.rb
+END
+postcode_anywhere_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/postcode_anywhere_test.rb
+END
+host_ip_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/host_ip_test.rb
+END
+multimap_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/multimap_test.rb
+END
+multi_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/multi_test.rb
+END
+geocoders.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/geocoders.rb
+END
+google_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/unit/graticule/geocoder/google_test.rb
+END

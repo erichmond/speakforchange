@@ -1,0 +1,2 @@
+class MessageToLegislator < Message
+end

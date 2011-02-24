@@ -1,0 +1,54 @@
+<% content_for :headtag do %>
+  <%= render :partial => 'shared/page_player' %>
+<% end %>
+
+<ul class='playlist'>
+  <%= render :partial => 'message', :object => @message %>
+</ul>
+
+<br style="clear:both"/>
+
+<h2>Add information to this message</h2>
+
+<p>You can add some useful information about your message.</p>
+
+<%= error_messages_for :message %>
+
+<% form_for :message, :url => message_path(@message), :html => {:method => :put}  do |f| %>
+
+  <p>
+    <%= f.hidden_field :password, :size => 10 %>
+  </p>
+
+  <p>
+  Adding a title will help you message stand out. 
+  </p>
+
+  <p>
+    <%= label :message, :title, "Give your message a title (up to 80 characters):" %>
+    <%= f.text_field :title, :size => 40 %>
+  </p>
+
+  <p style="margin-top:20px;">
+    Adding tags will help people find your message when they look for messages related to a certain topic. Separate your tags with commas. </p>
+  <p style="margin-top:10px;">
+    Here's an example of a set of tags: <strong>iraq, budget deficit, foreign policy</strong>
+  </p>
+
+  <p>
+    <%= label :message, :tag_list, "Add up to 5 tags to your message:" %>
+    <%= f.text_field :tag_list, :size => 40 %>
+  </p>
+
+  <p style="margin-top:20px;">
+    If you want to add a link to your message, e.g. to an online news article you refer to in your message, you can do so here: 
+  </p>
+
+  <p>
+    <%= label :message, :link, "Link:" %>
+    <%= f.text_field :link, :size => 40 %>
+  </p>
+
+  <%= submit_tag %>
+
+<% end %>

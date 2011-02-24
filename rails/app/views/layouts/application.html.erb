@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <title>
+      <%= @title ? @title.gsub(/<[^>]+>/, '') : "Speak For Change" %>
+    </title>
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+    <%= stylesheet_link_tag 'blueprint/screen.css', :media => "screen,projection" %>
+    <%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
+    <%= stylesheet_link_tag 'pagination.css' %>
+   <!--[if IE]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <%= javascript_include_tag "jquery-1.3.2.min.js" %>
+    <%= javascript_include_tag "application" %>
+
+    <script src="http://www.google.com/jsapi?key=<%= SPEAKFORCHANGE_CONFIG[:geocoder][:google_api_key] %>" type="text/javascript"></script>
+
+    <%= yield :headtag %>
+
+    <%= stylesheet_link_tag 'main' %>
+
+  </head>
+  <body>
+
+    <div id="superContainer">
+      <!-- 2 column layout -->
+      <div class="container">
+
+        <div id="top-links">
+
+        </div>
+
+        <div id="header" class="span-22">
+          <h1>
+            <a href="/"><span id="speakWord">speak</span><span id="forWord">for</span><span id="changeWord">change</span><span id="usWord">.us</span></a>
+            <span style="color: #000" class="phoneNumber">1-888-328-2804</span>
+          </h1>
+
+          <div id="topNav">
+            <table>
+              <tr>
+                <td>
+                  <%= link_to 'map', '/' %> 
+                  <%= link_to 'messages', '/messages' %> 
+                  <%= link_to 'issues', '/issues' %> 
+                  <%= link_to 'senators', '/senators' %> 
+                  <%= link_to 'representatives', '/representatives' %> 
+                  <%= link_to 'states', '/states' %> 
+                  <%= link_to 'tags', '/tags' %> 
+                  <%= link_to 'about', '/about' %> 
+
+                  <% form_tag '/search', :method => :post do %>
+                    <%=text_field_tag :search_field, params[:search_field] %>
+                    <%=submit_tag 'Search'%>
+                  <% end %>
+                </td>
+                <td class="editMyMessageLink">
+                  <%= link_to_function "edit your message", "$('#findAndEditMessageForm').toggle()"; %>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+
+          <table id="findAndEditMessageForm">
+            <tr>
+              <td>
+                <% form_tag validate_edit_messages_path do %>
+                  <p>Enter the <strong>zipcode</strong> you called from and the <strong>message password </strong> you got at the end of your call.</p>
+                  <%= label_tag :zipcode %>:
+                  <%= text_field_tag :zipcode %>
+                  &nbsp;
+                  <%= label_tag :password %>:
+                  <%= text_field_tag :password %>
+                  <%= submit_tag "Submit" %>
+                <% end %>
+              </td>
+            </tr>
+          </table>
+
+
+        </div><!-- header -->
+
+        <%= yield :screencast %>
+
+        <div id="body" class="span-24">
+
+          <% if flash[:notice] %>
+          <div id="flash"><%= flash[:notice] %></div>
+          <% end %>
+           
+          <div class="span-24"> 
+
+            <div class="span-18" id="bodyContent">
+              <%= yield %>
+            </div>
+
+            <div id="sidebar">
+
+              <%= yield :sidebar %>
+              <%= render :partial => 'shared/disqus_widget' %>
+
+              <%= render :partial => 'shared/creative_commons' %>
+            </div>
+
+
+          </div>
+
+         </div>
+
+
+             
+      </div><!-- container -->
+    </div>
+
+
+    <!-- disqus show number of comments -->
+    <script type="text/javascript">
+    //<![CDATA[
+    (function() {
+        var links = document.getElementsByTagName('a');
+        var query = '?';
+        for(var i = 0; i < links.length; i++) {
+          if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+          }
+        }
+        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/speakforchange/get_num_replies.js' + query + '"></' + 'script>');
+      })();
+    //]]>
+    </script>
+    <!-- google analytics -->
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8154135-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
+
+

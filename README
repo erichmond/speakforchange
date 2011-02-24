@@ -1,0 +1,3 @@
+- prompts: contains the pre-recorded prompt files which must be deployed to the asterisk server /var/lib/asterisk/sounds/speakchange directory
+- ahn_app: is the adhearsion application required for the IVR/telephony part of the application
+- rails_app: is the rails application required for the web application

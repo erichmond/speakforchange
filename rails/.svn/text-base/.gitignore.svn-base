@@ -1,0 +1,13 @@
+*.sphinx.conf
+db/sphinx/
+.DS_Store
+PASSWORDS
+log/
+tmp/
+#.sql
+*.sqlite3
+*.swp
+*.csv
+coverage/
+screenshots/
+backups/

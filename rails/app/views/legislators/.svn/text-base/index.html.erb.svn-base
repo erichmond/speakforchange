@@ -1,0 +1,60 @@
+<% content_for :headtag do %>
+  <%= javascript_include_tag "soundmanager2.js" %>
+  <%= stylesheet_link_tag 'inlineplayer.css' %>
+  <%= javascript_include_tag "inlineplayer.js" %>
+<% end %>
+<h2><%= @title %></h2>
+
+<% if params[:by_state] %>
+  <%= link_to "Order by last name", request.path%>
+  | Order by state
+<% else %>
+  Order by last name |
+  <%= link_to "Order by state", request.path + "?by_state=1"  %>
+<% end %>
+
+
+<table>
+  <thead>
+    <th>Name</th>
+    <th>State</th>
+    <% if request.path == '/representatives' %>
+      <th>District</th>
+    <% end %>
+    <th>Party</th>
+    <th>Extension</th>
+    <th>Messages</th>
+  </thead>
+  <tbody>
+    <% @legislators.each do |legislator| %>
+      <tr class="<%=cycle('odd', 'even')%>">
+        <td>
+          <%= link_to(legislator.lastname_first_no_title, legislator) %>
+        </td>
+        <td>
+          <%= legislator.state %>
+        </td>
+        <% if request.path == '/representatives' %>
+          <td><%= legislator.district == 0 ? '-' : legislator.district%></td>
+        <% end %>
+        <td>
+          <%= legislator.party%>
+        </td>
+        <td>
+          x<%= legislator.extension %>#
+        </td>
+        <td class='msgCol'>
+          <% if legislator.deliveries_count > 0 %>
+            <%= link_to legislator.deliveries_count, legislator %>
+          <% else %>
+            <%= legislator.deliveries_count %>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<% content_for :sidebar do %>
+
+<% end %>

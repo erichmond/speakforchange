@@ -1,0 +1,29 @@
+
+<h2>States</h2>
+<table>
+  <thead>
+    <th>State</th>
+    <th>Abbrev</th>
+    <th>Messages</th>
+  </thead>
+  <tbody>
+    <% @states.each do |state| %>
+      <tr class="<%=cycle('odd', 'even')%>">
+        <td>
+
+          <%= link_to state.name, state_path(:id => state.abbreviation) %>
+        </td>
+        <td>
+          <%= link_to state.abbreviation, state_path(:id => state.abbreviation) %>
+        </td>
+        <td class='msgCol'>
+          <% if state.messages.count > 0 %>
+            <%= link_to state.messages.count, state_path(:id => state.abbreviation) %>
+          <% else %>
+            <%= state.messages.count %>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

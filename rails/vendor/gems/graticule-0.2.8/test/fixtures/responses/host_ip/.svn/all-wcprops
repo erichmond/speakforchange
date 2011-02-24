@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/host_ip
+END
+success.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/host_ip/success.txt
+END
+private.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/host_ip/private.txt
+END
+unknown.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/host_ip/unknown.txt
+END

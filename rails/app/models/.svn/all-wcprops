@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/415/trunk/rails/app/models
+END
+zipcode_geolocation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/75/trunk/rails/app/models/zipcode_geolocation.rb
+END
+representative.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/rails/app/models/representative.rb
+END
+state.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/394/trunk/rails/app/models/state.rb
+END
+delivery.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/303/trunk/rails/app/models/delivery.rb
+END
+message.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/415/trunk/rails/app/models/message.rb
+END
+play.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/190/trunk/rails/app/models/play.rb
+END
+legislator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/358/trunk/rails/app/models/legislator.rb
+END
+notification.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/408/trunk/rails/app/models/notification.rb
+END
+message_on_issue.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/59/trunk/rails/app/models/message_on_issue.rb
+END
+issue.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/359/trunk/rails/app/models/issue.rb
+END
+senator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/rails/app/models/senator.rb
+END
+message_to_legislator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/59/trunk/rails/app/models/message_to_legislator.rb
+END
+extension.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/rails/app/models/extension.rb
+END

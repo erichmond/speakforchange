@@ -1,0 +1,23 @@
+<div id="aboutPage">
+  <%= image_tag 'logo.png' %>
+  <%= @markdown %>
+
+
+<hr/>
+
+<h2>Your Feedback</h2>
+
+<p>Your feedback is valuable to us. Please post it here.</p>
+
+<script>
+ var disqus_title = "<%= URI.escape("Feedback") %>";
+</script>
+<div class="span-18">
+  <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/speakforchange/embed.js"></script><noscript><a href="http://speakforchange.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+</div>
+<br/>
+<br/>
+<br/>

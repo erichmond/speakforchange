@@ -1,0 +1,2 @@
+class MessageOnIssue < Message
+end

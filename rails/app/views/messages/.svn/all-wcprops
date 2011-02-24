@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/417/trunk/rails/app/views/messages
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/389/trunk/rails/app/views/messages/edit.html.erb
+END
+_messages.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/257/trunk/rails/app/views/messages/_messages.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/324/trunk/rails/app/views/messages/index.html.erb
+END
+index.rss.builder
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/409/trunk/rails/app/views/messages/index.rss.builder
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/372/trunk/rails/app/views/messages/show.html.erb
+END
+_message.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/417/trunk/rails/app/views/messages/_message.html.erb
+END

@@ -1,0 +1,25 @@
+welcome_prompt: Welcome to Speak For Change, the voicemail of democracy.  Visit us online at W W W dot Speak For Change dot U S.  If you know the extension you would like to reach please dial it at any time.  If you would like to leave a message for your representatives in the U S congress, please enter your zipcode and then press pound.
+
+zip_code_entered: You entered your zipcode as
+
+generic_selection_review: Press 1 if this is correct or press 2 if this is incorrect.
+
+invalid:  I am sorry I did not understand your entry.
+
+message_review: Press 1 to accept your message.  Press 2 to listen to it.  Press 3 to re-record your message. Or press 4 to cancel and not send your message.
+
+leave_message_for:  We have found a list of senators and representatives in your zipcode.  Please listen to the list and select the person you would like to leave a message for.
+
+rep_pick_all:  You have chosen to send your message to everyone on the list.
+
+rep_pick_one:  You have chosen to send a message to.
+
+record_message: Great! Now lets record your message.  Keep in mind that your message will be made public online at W W W dot speak for change dot us. Please record your message at the sound of the tone.  When you are done please press pound.
+
+accept_prompt: All right! To make your voice heard in congress, your message will now be posted online at W W W DOT speak for change DOT U S.  Before you go, you might want to write down the following password SO you can edit or tag your message online.  Your password will be repeated a few times in case you need to grab a pen.  Ready?
+
+password_review:  Your password is
+
+password_repeat: Press 1 to hear your password again.
+
+good-bye:  Thanks for calling Speak For Change and using the power of your voice to keep democracy strong.  For more information or to listen to the voices of your fellow citizens, visit us online at W W W dot Speak For Change Dot US .  Good Bye.

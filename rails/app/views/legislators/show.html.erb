@@ -1,0 +1,19 @@
+<% content_for :headtag do %>
+	<%= auto_discovery_link_tag(:rss, legislator_url) %>
+<%= render :partial => 'shared/page_player' %>
+<% end %>
+
+<div class="legislatorTopRight">
+  <%= image_tag @legislator.image%>
+  <br/>
+  <%= link_to( 'website', @legislator.website ) if @legislator.website %>
+
+</div>
+<h2>
+  <%= @legislator.fullname %>
+</h2>
+
+
+<p>Use extension <span class="extensionNumber"><%= @legislator.extension %></span> to leave a message for this legislator.</p>
+
+<%= render :partial => "messages/messages", :object => @messages %>

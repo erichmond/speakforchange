@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder
+END
+rest.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/rest.rb
+END
+geocoder_us.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/geocoder_us.rb
+END
+map_quest.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/map_quest.rb
+END
+yahoo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/yahoo.rb
+END
+bogus.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/bogus.rb
+END
+local_search_maps.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/local_search_maps.rb
+END
+meta_carta.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/meta_carta.rb
+END
+postcode_anywhere.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/postcode_anywhere.rb
+END
+host_ip.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/host_ip.rb
+END
+multimap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/multimap.rb
+END
+geocoder_ca.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/geocoder_ca.rb
+END
+multi.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/multi.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/base.rb
+END
+google.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/lib/graticule/geocoder/google.rb
+END

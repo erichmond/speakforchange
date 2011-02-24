@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/postcode_anywhere
+END
+canada.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/postcode_anywhere/canada.xml
+END
+success.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/postcode_anywhere/success.xml
+END
+empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/postcode_anywhere/empty.xml
+END
+uk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/postcode_anywhere/uk.xml
+END
+badkey.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/71/trunk/rails/vendor/gems/graticule-0.2.8/test/fixtures/responses/postcode_anywhere/badkey.xml
+END

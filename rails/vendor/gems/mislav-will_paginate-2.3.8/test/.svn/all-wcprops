@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/71/trunk/rails/vendor/gems/mislav-will_paginate-2.3.8/test
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/71/trunk/rails/vendor/gems/mislav-will_paginate-2.3.8/test/helper.rb
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/71/trunk/rails/vendor/gems/mislav-will_paginate-2.3.8/test/console
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/71/trunk/rails/vendor/gems/mislav-will_paginate-2.3.8/test/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/71/trunk/rails/vendor/gems/mislav-will_paginate-2.3.8/test/boot.rb
+END
+tasks.rake
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/71/trunk/rails/vendor/gems/mislav-will_paginate-2.3.8/test/tasks.rake
+END
+finder_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/71/trunk/rails/vendor/gems/mislav-will_paginate-2.3.8/test/finder_test.rb
+END
+view_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/71/trunk/rails/vendor/gems/mislav-will_paginate-2.3.8/test/view_test.rb
+END
+collection_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/71/trunk/rails/vendor/gems/mislav-will_paginate-2.3.8/test/collection_test.rb
+END

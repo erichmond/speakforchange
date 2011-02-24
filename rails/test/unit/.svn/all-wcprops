@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/279/trunk/rails/test/unit
+END
+zipcode_geolocation_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/75/trunk/rails/test/unit/zipcode_geolocation_test.rb
+END
+state_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/254/trunk/rails/test/unit/state_test.rb
+END
+delivery_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/272/trunk/rails/test/unit/delivery_test.rb
+END
+message_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/279/trunk/rails/test/unit/message_test.rb
+END
+legislator_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/207/trunk/rails/test/unit/legislator_test.rb
+END
+play_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/187/trunk/rails/test/unit/play_test.rb
+END
+issue_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/209/trunk/rails/test/unit/issue_test.rb
+END
+tag_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/213/trunk/rails/test/unit/tag_test.rb
+END
+extension_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/rails/test/unit/extension_test.rb
+END

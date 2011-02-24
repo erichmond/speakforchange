@@ -1,0 +1,38 @@
+<li style="min-height: 78px;">
+  <div style='float:left;font-size:16px;'>
+    <%=message.state %>
+    <%=message.zipcode %><br/>
+    <%=message.created_at.strftime('%b %d, %Y') %><br/>
+    <%=message.created_at.strftime('%I:%M %p') %>
+  </div>
+
+  <div class="messageText" style="margin-left: <%= message.deliveries.size * 50 %>px;">  
+
+    <% if message.title %>
+      <div class="messageTitle" style="margin-bottom: 2px;">
+        <%= message.title %>
+      </div>
+    <% end %>
+
+
+    <div class="messageActions">
+
+      <%= link_to("Play message", "/messages/#{message.file}", :class => "audio") %>
+      <%= link_to("Comment", message_path(message, :anchor => 'comments')) %>
+      <%= link_to("Permalink", message_path(message)) %>
+      <% unless @message %>
+        <%= link_to "Details", message_path(message) %>
+        <%= link_to "Edit", edit_message_path(message) %>
+      <% end %>
+
+    </div>
+
+    <div class="messageMeta">
+      <% if ! message.tag_list.empty? %>
+        <%= message.tags.count == 1 ? "Tag" : "Tags" %>: <span class='messageMeta'><%= message.tags.map {|tag| link_to tag.name, tag_path(tag), :class => 'tag'}.join(', ')%></span>
+      <% end %>
+    </div>
+
+
+  </div>
+</li>
