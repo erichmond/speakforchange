@@ -1,3 +1,12 @@
+This project was originally created for AppsForAmerica.  A contest run by sunlightlabs.com in 2009. 
+
+Authors: Carlos Lenz, Dan Choi, Eric Richmond.
+
+For more info, see:
+
+http://sunlightlabs.com/contests/appsforamerica/apps/speakforchange/
+
+
 - prompts: contains the pre-recorded prompt files which must be deployed to the asterisk server /var/lib/asterisk/sounds/speakchange directory
 - ahn_app: is the adhearsion application required for the IVR/telephony part of the application
 - rails_app: is the rails application required for the web application
